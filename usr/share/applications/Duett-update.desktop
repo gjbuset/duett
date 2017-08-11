@@ -1,0 +1,30 @@
+[Desktop Entry]
+Version=1.0
+Terminal=false
+NoDisplay=false
+Icon=duett
+Type=Application
+Categories=System;Duett;
+Exec=duett -o
+Name=Oppdater Duett
+GenericName=Duett
+Comment=Oppdater brukardata og/eller Duett. Høgreklikk for fleire val.
+Actions=Skrivar;Skjermstorleik;Innlogging;Slett;Rediger;Oppdater;
+[Desktop Action Skrivar]
+Name=Endre skrivar
+Exec=duett -p
+[Desktop Action Skjermstorleik]
+Name=Endre skjermstorleik
+Exec=duett -s
+[Desktop Action Innlogging]
+Name=Oppdater påloggingsinfo
+Exec=duett -b
+[Desktop Action Slett]
+Name=Slett påloggingsinfo
+Exec=duett -n
+[Desktop Action Rediger]
+Name=rediger fila .duettt.user
+Exec=duett -r
+[Desktop Action Oppdater]
+Name=Oppdater Duett
+Exec=duett -o

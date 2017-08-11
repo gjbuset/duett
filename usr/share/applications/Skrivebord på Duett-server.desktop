@@ -1,0 +1,25 @@
+[Desktop Entry]
+Version=1.0.1
+Terminal=false
+NoDisplay=false
+Icon=duett
+Type=Application
+Categories=Office;Duett;
+Exec=duett -e
+Name=Skrivebord på Duett-server
+GenericName=Duett
+Comment=Skrivebord på Duett-server. Høgreklikk for fleire val.
+Actions=Remote;Lokal;Explorer;Hjelp;
+[Desktop Action Remote]
+Name=Via Eksternt Skrivebord
+Exec=duett -e
+[Desktop Action Lokal]
+Name=Lokalt vindauge på PC
+Exec=duett -l
+[Desktop Action Explorer]
+Name=Filhandsaming på Server
+Exec=duett -u
+[Desktop Action Hjelp]
+Name=Hjelp for Duett
+Exec=duett -h
+
