@@ -1,7 +1,7 @@
 #!/bin/sh
 # Duett binary
 
-DU_VERSJON=17.06.3
+DU_VERSJON=17.08.1
 DU_URL=https://rds.duett.no/rdweb/pages/no-nb/login.aspx
 MS_COMMAND="$0"
 unset CDPATH
@@ -194,6 +194,7 @@ D_Uninst()
 zenity --question  --icon-name=duett --timeout 10 --text="Vil du fjærne alle spor av Duett? \n Dette inkluderer:\n -Snarevegar \n-Sertifikat \n-Systeminnstillingar \n-Programvare \n-Påloggingsinformasjon" --ok-label="Avinstaller" --cancel-label="Avbryt"
 if [ $? = 0 ] ; then
 D_brukardata
+sudo apt-get remove -y duett
 else
 echo "avbryt"
 fi
