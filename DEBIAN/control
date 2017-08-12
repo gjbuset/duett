@@ -1,0 +1,6 @@
+Package: duett
+Version: 17063
+Maintainer: Gjermund Buset
+Architecture: all
+Description: Duettpålogging for Linux
+Depends: freerdp2-x11, yad, remmina
