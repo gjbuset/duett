@@ -1,0 +1,21 @@
+[Desktop Entry]
+Version=1.0
+Terminal=false
+NoDisplay=false
+Icon=duett
+Type=Application
+Categories=Office;Duett;
+Exec=duett -h
+Name=Hjelp for Duett
+GenericName=Hjelp for Duett
+Comment=Hurtigguide for oppkopling til Duett. Høgreklikk for fleire val.
+Actions=Hjelp;Duetthjelp;Rrphjelp;
+[Desktop Action Hjelp]
+Name=Hjelp for Duett
+Exec=duett -h
+[Desktop Action Duetthjelp]
+Name=Daldata Support nettside
+Exec=firefox https://kundeportal.daldata.no/15186.Forside.html
+[Desktop Action Rrphjelp]
+Name=FreeRDP Support nettside
+Exec=firefox https://github.com/awakecoding/FreeRDP-Manuals/blob/master/User/FreeRDP-User-Manual.markdown
