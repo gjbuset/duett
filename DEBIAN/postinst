@@ -1,4 +1,0 @@
-#!/bin/sh
-sudo update-icon-caches /usr/share/app-install/icons/*
-sudo update-icon-caches /usr/share/icons/*
-notify-send -i duett 'Installasjon Duettpålogging for Linux' 'Installasjon fullført'
